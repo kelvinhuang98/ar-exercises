@@ -10,6 +10,7 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+errors.add(:store, "must offer either mens or womens apparel")
 
 puts "Enter a store name: "
 @store_name = gets.chomp
